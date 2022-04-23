@@ -16,6 +16,6 @@ pessoa.idade = 21; //setter
 console.log(pessoa.idade);  //getter
 console.log(pessoa.state);
 
-//propriedades de acesso servem para modificar propriedades de dados
+//propriedades de acesso servem para modificar propriedades de dados, além de realizar alguma ação com essas propriedades do objeto
 //PROPRIEDADES GETTERS -> LER DADOS
 //PROPRIEDADES SETTERS -> MODIFICAR DADOS
