@@ -23,7 +23,8 @@ console.log(joao.getNome(), joao.getIdade(), joao.getSexo());
 
 //para não precisar fazer uma estrutura para cada get
 Pessoa.prototype = {
-    constructor: Pessoa,
+    constructor: Pessoa, //para comportar Pessoa, o qual cria os objetos, como Constructor
+
     getNome: function(){ 
         return this.nome;
     },
